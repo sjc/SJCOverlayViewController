@@ -24,7 +24,6 @@
 		1768A91E185349E900697A33 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1768A91D185349E900697A33 /* ViewController.xib */; };
 		1768A92218534B7000697A33 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1768A92018534B7000697A33 /* OverlayViewController.m */; };
 		1768A92318534B7000697A33 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1768A92118534B7000697A33 /* OverlayViewController.xib */; };
-		1768A92B18535AEA00697A33 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1768A92A18535AEA00697A33 /* UIImage+ImageEffects.m */; };
 		1768A92E18535B8100697A33 /* SJCBlurAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1768A92D18535B8100697A33 /* SJCBlurAnimatedTransitioning.m */; };
 		1768A93218535E9400697A33 /* BlurredOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1768A93018535E9400697A33 /* BlurredOverlayViewController.m */; };
 		1768A93318535E9400697A33 /* BlurredOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1768A93118535E9400697A33 /* BlurredOverlayViewController.xib */; };
@@ -65,8 +64,6 @@
 		1768A91F18534B7000697A33 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
 		1768A92018534B7000697A33 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
 		1768A92118534B7000697A33 /* OverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayViewController.xib; sourceTree = "<group>"; };
-		1768A92918535AEA00697A33 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		1768A92A18535AEA00697A33 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		1768A92C18535B8100697A33 /* SJCBlurAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCBlurAnimatedTransitioning.h; sourceTree = "<group>"; };
 		1768A92D18535B8100697A33 /* SJCBlurAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCBlurAnimatedTransitioning.m; sourceTree = "<group>"; };
 		1768A92F18535E9400697A33 /* BlurredOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurredOverlayViewController.h; sourceTree = "<group>"; };
@@ -185,8 +182,6 @@
 				1768A91B1853496000697A33 /* SJCOverlayViewController.m */,
 				1768A92C18535B8100697A33 /* SJCBlurAnimatedTransitioning.h */,
 				1768A92D18535B8100697A33 /* SJCBlurAnimatedTransitioning.m */,
-				1768A92918535AEA00697A33 /* UIImage+ImageEffects.h */,
-				1768A92A18535AEA00697A33 /* UIImage+ImageEffects.m */,
 			);
 			name = SJCOverlayViewController;
 			path = ../../SJCOverlayViewController;
@@ -294,7 +289,6 @@
 				1768A92218534B7000697A33 /* OverlayViewController.m in Sources */,
 				1768A8FB1853494000697A33 /* ViewController.m in Sources */,
 				1768A93218535E9400697A33 /* BlurredOverlayViewController.m in Sources */,
-				1768A92B18535AEA00697A33 /* UIImage+ImageEffects.m in Sources */,
 				1768A8F21853494000697A33 /* AppDelegate.m in Sources */,
 				1768A91C1853496000697A33 /* SJCOverlayViewController.m in Sources */,
 				1768A8EE1853493F00697A33 /* main.m in Sources */,
@@ -501,6 +495,7 @@
 				1768A9151853494000697A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1768A9161853494000697A33 /* Build configuration list for PBXNativeTarget "OverlayViewControllerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +504,7 @@
 				1768A9181853494000697A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
